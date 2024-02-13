@@ -37,19 +37,13 @@ public abstract class Cake {
         this.baseFlavour = newBaseFlavour;
     }
 
-    /* public boolean isGlutenFree()
+    public boolean isGlutenFree()
     {
-        if (isGlutenFree == true)
-        {
-            return true;
-        }
-        else{
-            return false;
-        }
+        return this.isGlutenFree;
     }
-    */
 
-    public IcingFlavour getIcingFlavour() {
+    public IcingFlavour getIcingFlavour()
+    {
         return icingFlavour;
     }
 
