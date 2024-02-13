@@ -14,6 +14,11 @@ public class TieredCake extends Cake{
         return this.tier;
     }
 
+    public void setNumOfTiers(int tiers)
+    {
+        this.tier = tiers;
+    }
+
     public int getNumOfServings()
     {
         return this.servings;
